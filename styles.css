@@ -1,0 +1,45 @@
+* {margin: 0;padding: 0;}
+
+body {
+  height: 100vh;
+  display: flex;
+}
+
+.leftsidebar, .rightbar 
+{
+  border: solid 1px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.leftsidebar {
+  width: 10%;
+  display: flex;flex-direction: column;
+  background-image: url(../images/button.jpg);background-size: cover;background-repeat: no-repeat;
+  }
+
+
+.rightbar {
+  width: 90%;
+  background-color: rgb(153, 153, 153);
+  background-image: url(../images/tree.png);background-repeat: no-repeat; background-size: cover;
+}
+
+
+
+.buttons1
+{
+  height: 10%;
+  color: rgb(255, 238, 0);
+  font-weight: 1000;
+  text-decoration: none;
+  display: flex; justify-content: center; align-items: center;
+}
+
+.buttons1:hover
+{
+  transition: 500ms;
+  color: black;
+  background-color: rgb(255, 0, 0);
+}
+
