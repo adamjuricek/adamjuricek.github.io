@@ -1,0 +1,1 @@
+# adamjuricek.github.io
